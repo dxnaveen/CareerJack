@@ -177,9 +177,20 @@ section {
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
+.header.header-scrolled .not-active {
+  color:#707070;
+}
+
+.header.header-scrolled span{
+  color: #90733D !important;
+}
+
+
 .header .logo {
   line-height: 0;
 }
+
+
 
 
 .header .logo img {
@@ -188,11 +199,11 @@ section {
 }
 
 .header .logo span {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 100;
   letter-spacing: 1px;
-  color: #012970;
-  font-family: "Montserrat", sans-serif;
+  color: #f3f3f3;
+  font-family: "Baskerville", sans-serif;
   margin-top: 3px;
 }
 
