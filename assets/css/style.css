@@ -56,10 +56,11 @@ section {
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 48px;
   line-height: 42px;
-  font-weight: 700;
-  color: #012970;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  color: #FF8E8E;
 }
 
 @media (max-width: 768px) {
@@ -534,15 +535,15 @@ section {
 
 .about h3 {
   font-size: 14px;
-  font-weight: 700;
-  color: #4154f1;
+  font-weight: 100;
+  color: #F18D8D;
   text-transform: uppercase;
 }
 
 .about h2 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #012970;
+  font-size: 36px;
+  font-weight: 100;
+  color: #707070;
 }
 
 .about p {
@@ -556,9 +557,10 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #7AC0B8;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
+/* #more {display: none;} */
 
 .about .btn-read-more span {
   font-family: "Montserrat", sans-serif;
@@ -679,14 +681,17 @@ section {
 }
 
 .features .feture-tabs {
-  margin-top: 120px;
+  /* margin-top: 120px; */
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 42px;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  color: #FF8E8E;
 }
 
 @media (max-width: 768px) {
@@ -2290,11 +2295,11 @@ section {
 }
 
 .footer .footer-top .footer-info .logo span {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 100;
   letter-spacing: 1px;
-  color: #012970;
-  font-family: "Montserrat", sans-serif;
+  color: #90733D ;
+  font-family: "Baskerville", sans-serif;
   margin-top: 3px;
 }
 
