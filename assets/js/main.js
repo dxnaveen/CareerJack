@@ -256,7 +256,7 @@
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
     slidesPerView: 'auto',
     pagination: {
@@ -292,3 +292,40 @@
   });
 
 })();
+
+function myFunctionOld(id) {
+      
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "inline";
+    
+    
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    document.getElementById("more").style.display = "inline";
+    console.log(moreText.innerHTML);
+    
+  }
+}
+
+function myFunction(id) {
+ 
+  if($('.dots'+id).is(':visible')) {
+
+    $('.dots'+id).hide();
+    $('.more'+id).show();
+    $('.more-link-'+id).text('Read Less');
+
+  } else {
+    $('.dots'+id).show();
+    $('.more'+id).hide();
+    $('.more-link-'+id).text('Read More');
+    
+  }
+}
